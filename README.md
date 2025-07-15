@@ -18,8 +18,9 @@ This guide explains how to enable one-click "Play in PotPlayer" from your browse
 1. **Extract both BAT files to the same folder.**
 
 2. **Run the registration script as administrator:**
-   - Right-click `register-potplayer-protocol.bat` and choose "Run as administrator".
+   - Right-click `register-potplayer-protocol.bat` and choose "Run as administrator", do the same for potplayer-url-helper.bat
    - This will add the necessary registry entries so PotPlayer can be launched from potplayer:// links using the helper script.
+   - potplayer-url-helper.bat launches PotPlayer with the correct video URL
 
 3. **Test the integration:**
    - Press `Win + R` and enter:
